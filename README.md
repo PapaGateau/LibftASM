@@ -19,7 +19,7 @@ void *ft_memset(void *b, int c, size_t len);
 void *ft_memcpy(void *restrict dst, const void *retrict, size_t n);
 char *ft_strdup(const char *s1);
 void ft_cat(int fd);	
-```c
+```
 
 ## Useful links and resources:
 - Intel instruction set reference http://faydoc.tripod.com/cpu/
