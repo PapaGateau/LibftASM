@@ -18,12 +18,12 @@ int ft_puts(const char *s);
 void *ft_memset(void *b, int c, size_t len);
 void *ft_memcpy(void *restrict dst, const void *retrict, size_t n);
 char *ft_strdup(const char *s1);
-void ft_cat(int fd);	
+void ft_cat(int fd);
 ```
 
 ## Useful links and resources:
-- Intel instruction set reference http://faydoc.tripod.com/cpu/
-- x64 Cheat sheet https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
-- Assembly conditions https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm
-- System calls https://syscalls.kernelgrok.com/
-- understanding stack frame https://idea.popcount.org/2013-07-16-baby-steps-in-x86-assembly/ 
+- [Intel instruction set reference](http://faydoc.tripod.com/cpu/)
+- [x64 Cheat sheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
+- [Assembly conditions](https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm)
+- [System calls](https://syscalls.kernelgrok.com/)
+- [Understanding stack frame](https://idea.popcount.org/2013-07-16-baby-steps-in-x86-assembly/ )
