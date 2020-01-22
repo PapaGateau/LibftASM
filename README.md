@@ -1,5 +1,18 @@
 # LibftASM
-Simple library of assembly functions for MacOS 64bit assembly using Intel syntax
+Simple library of assembly functions for MacOS 64bit assembly using Intel syntax  
+Compiles into a shared library ```libfts.a``` that can be used for other projects
+
+## Prerequisites
+```bash
+brew install nasm
+```
+
+## Build
+```bash
+make
+make clean # Remove object files
+make fclean # Remove object files and library
+```
 
 ## Functions
 ```c
